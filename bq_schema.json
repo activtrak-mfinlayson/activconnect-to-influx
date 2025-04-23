@@ -1,0 +1,113 @@
+[{
+  "column_name": "local_time",
+  "data_type": "DATETIME",
+  "is_nullable": "YES"
+}, {
+  "column_name": "time",
+  "data_type": "TIMESTAMP",
+  "is_nullable": "YES"
+}, {
+  "column_name": "ip",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "publicip",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "duration",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "email",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "popup",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "screenshot",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "terminate",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "webhook",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "computerid",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "computer",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "primarydomain",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "logondomain",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "userid",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "user",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "userraw",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "useralias",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "titlebar",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "executable",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "log_description",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "log_url",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "productivity",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "category",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "active_state",
+  "data_type": "STRING",
+  "is_nullable": "YES"
+}, {
+  "column_name": "uploadtime",
+  "data_type": "TIMESTAMP",
+  "is_nullable": "YES"
+}, {
+  "column_name": "accountid",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}, {
+  "column_name": "version",
+  "data_type": "INT64",
+  "is_nullable": "YES"
+}]
