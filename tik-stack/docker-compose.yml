@@ -21,26 +21,6 @@ services:
     networks:
       - monitoring-network
 
-  # Kapacitor for data processing, alerting, and ETL
-  kapacitor:
-    image: kapacitor:1.6
-    container_name: kapacitor
-    ports:
-      - "9092:9092"
-    environment:
-      - KAPACITOR_HOSTNAME=kapacitor
-      - KAPACITOR_INFLUXDB_0_URLS_0=http://influxdb:8086
-      - KAPACITOR_INFLUXDB_0_USERNAME=admin
-      - KAPACITOR_INFLUXDB_0_PASSWORD=adminpassword
-    volumes:
-      - kapacitor-data:/var/lib/kapacitor
-      - ./kapacitor.conf:/etc/kapacitor/kapacitor.conf:ro
-    depends_on:
-      - influxdb
-    restart: unless-stopped
-    networks:
-      - monitoring-network
-
   # Grafana for visualization
   grafana:
     image: grafana/grafana:10.2.0
@@ -67,5 +47,4 @@ networks:
 volumes:
   influxdb-data:
   influxdb-config:
-  kapacitor-data:
   grafana-data:
